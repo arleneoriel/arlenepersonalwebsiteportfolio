@@ -1,0 +1,86 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(2, 2, 79);
+    min-height: 40px;
+}
+
+li {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: auto;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Change link color to lightblue on hover */
+li a:hover {
+    background-color:lightblue;
+}
+
+li a:visited {
+    color: orange;
+}
+
+body {
+    background-color: lightblue;
+}
+
+p {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+section {
+    border-radius: 5px;
+
+}
+
+#section1 {
+    background-color: white;
+    height: auto;
+    min-height: 100px;
+    width: 800px;
+    margin: auto;
+
+}
+
+#more-about {
+    text-align: right;
+    padding-bottom: 20px;
+}
+
+#logo {
+    display: inline;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: segoe;
+}
